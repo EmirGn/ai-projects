@@ -1,1 +1,2 @@
-# emirgn_aiprojectgrp
+# EmirGn
+Machine Learning
