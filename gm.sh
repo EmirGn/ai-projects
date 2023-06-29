@@ -1,9 +1,13 @@
-command_script = "$1"
+#!/bin/bash
 
-function gm(){
-    git add .
-    git commit -m "$command_script"
-    git push
+commit_message="$1"
+
+# Function to run git add, commit, and push
+function git_commit_and_push() {
+  git add .
+  git commit -m "$commit_message"
+  git push
 }
 
-gm
+# Call the function
+git_commit_and_push
