@@ -74,7 +74,7 @@ Perceptron::Perceptron(int a, int b, bool c){
 }
 
 int main(){
-    MultiLayerPerceptron Perceptron1;
+    Perceptron Perceptron1(5, 6, true);
     Perceptron1.Linear();
     // Perceptron1.Linear();
 }
